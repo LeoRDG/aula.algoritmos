@@ -15,8 +15,8 @@ public class AlturaPredio {
         System.out.print("Qual o angulo observado (graus): ");
         double angulo = Math.toRadians(leitor.nextDouble());
 
-        double hipotenusa = distancia / Math.cos(angulo);
-        double alturaPredio = Math.sqrt(Math.pow(hipotenusa, 2) - Math.pow(distancia, 2)) + alturaTeodolito;
+        double hipotenusa = distancia / Math.cos( angulo );
+        double alturaPredio = Math.sqrt( Math.pow( hipotenusa, 2 ) - Math.pow( distancia, 2 )) + alturaTeodolito;
 
         System.out.println("A altura do prédio é: " + alturaPredio);
     }

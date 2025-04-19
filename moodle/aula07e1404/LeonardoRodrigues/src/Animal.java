@@ -25,14 +25,14 @@ public class Animal {
             case 0b0101:
                 resultado += "pombo";
                 break;
+            case 0b1010:
+                resultado += "onça";
+                break;
             case 0b0110:
                 resultado += "porco";
                 break;
             case 0b1001:
                 resultado += "águia";
-                break;
-            case 0b1010:
-                resultado += "onça";
                 break;
         }
 

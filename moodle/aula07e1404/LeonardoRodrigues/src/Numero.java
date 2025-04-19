@@ -10,10 +10,10 @@ public class Numero {
         System.out.print("Digite um número inteiro: ");
         int num = leitor.nextInt();
 
+        String resultado = "O número é ";
+
         boolean positivo = num > 0;
         boolean par = num % 2 == 0;
-
-        String resultado = "O número é ";
 
         if ( num == 0 ) {
             resultado += "zero";

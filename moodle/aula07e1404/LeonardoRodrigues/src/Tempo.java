@@ -15,7 +15,6 @@ public class Tempo {
         int horas    = duracao / 60 / 60 % 24;
         int dias     = duracao / 60 / 60 / 24;
 
-        System.out.println("O evento durou: " + dias + "d "  + horas + "h:"  + minutos + "m:"
-                           + segundos + "s");
+        System.out.println(dias + "-"  + horas + ":"  + minutos + ":" + segundos);
     }
 }

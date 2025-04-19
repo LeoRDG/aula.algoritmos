@@ -27,22 +27,20 @@ public class Triangulo {
             else              {terceiro = c; segundo = b; primeiro = a;} // c b a
         }
 
-        a = primeiro;
-        b = segundo;
-        c = terceiro;
+        a = primeiro; b = segundo; c = terceiro;
 
-        if ( a >= ( b + c ) ) {
-            System.out.println("não é um triângulo");
+        String resultado = "é um triângulo";
+
+        if ( a >= ( b + c )) {
+            resultado = "não " + resultado;
         } else {
             double teste = a - ( Math.sqrt ( Math.pow( b, 2 ) + Math.pow( c, 2 ) ) );
 
-            if (teste < 0){
-                System.out.println("é 𝑢𝑚 𝑡𝑟𝑖â𝑛𝑔𝑢𝑙𝑜 𝑎𝑐𝑢𝑡â𝑛𝑔𝑢𝑙𝑜");
-            } else if (teste > 0) {
-                System.out.println("é 𝑢𝑚 𝑡𝑟𝑖â𝑛𝑔𝑢𝑙𝑜 obstusângulo");
-            } else {
-                System.out.println("é 𝑢𝑚 𝑡𝑟𝑖â𝑛𝑔𝑢𝑙𝑜 retângulo");
-            }
+            if      ( teste < 0 ) { resultado += " 𝑎𝑐𝑢𝑡â𝑛𝑔𝑢𝑙𝑜"; }
+            else if ( teste > 0 ) { resultado += " obstusângulo"; }
+            else    { resultado += " retângulo"; }
         }
+
+        System.out.println(resultado);
     }
 }

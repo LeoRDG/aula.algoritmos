@@ -10,10 +10,10 @@ public class BisextoSimples {
         System.out.print("Digite um ano: ");
         int ano = leitor.nextInt();
 
-        if (ano % 4 == 0) {
-            System.out.println("O ano " + ano + " é bisexto");
-        } else {
-            System.out.println("O ano " + ano + " não é bisexto");
-        }
+        String resultado = "O ano " + ano;
+
+        resultado += (ano % 4 == 0) ? " é bisexto" : " não é bisexto";
+
+        System.out.println(resultado);
     }
 }

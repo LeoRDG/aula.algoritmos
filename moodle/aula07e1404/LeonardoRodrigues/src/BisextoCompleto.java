@@ -14,10 +14,10 @@ public class BisextoCompleto {
         boolean divide100 = ano % 100 == 0;
         boolean divide400 = ano % 400 == 0;
 
-        if (divide4 && (!divide100 || divide400)) {
-            System.out.println("O ano " + ano + " é bisexto");
-        } else {
-            System.out.println("O ano " + ano + " não é bisexto");
-        }
+        String resultado = "O ano " + ano;
+
+        resultado += ( divide4 && ( !divide100 || divide400 )) ? " é bisexto" : " não é bisexto";
+
+        System.out.println(resultado);
     }
 }

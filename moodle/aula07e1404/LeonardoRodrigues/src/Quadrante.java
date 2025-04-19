@@ -12,30 +12,20 @@ public class Quadrante {
         double x = leitor.nextDouble();
         double y = leitor.nextDouble();
 
+        String resultado = "eixo X";
+
         if ( x > 0 ) {
-            if ( y > 0 ) {
-                System.out.println("1º Quadrante");
-            } else if ( y < 0 ) {
-                System.out.println("4º Quadrante");
-            } else {
-                System.out.println("Eixo x");
-            }
+            if      ( y > 0 ) { resultado = "1º Quadrante"; }
+            else if ( y < 0 ) { resultado = "4º Quadrante"; }
 
         } else if ( x < 0 ) {
-            if ( y > 0 ) {
-                System.out.println("2º Quadrante");
-            } else if ( y < 0 ) {
-                System.out.println("3º Quadrante");
-            } else {
-                System.out.println("eixo x");
-            }
+            if      ( y > 0 ) { resultado = "2º Quadrante"; }
+            else if ( y < 0 ) { resultado = "3º Quadrante"; }
 
         } else {
-            if ( y == 0 ) {
-                System.out.println("origem");
-            } else {
-                System.out.println("eixo Y");
-            }
+            resultado = (y == 0) ? "origem" : "eixo Y";
         }
+
+        System.out.println(resultado);
     }
 }
