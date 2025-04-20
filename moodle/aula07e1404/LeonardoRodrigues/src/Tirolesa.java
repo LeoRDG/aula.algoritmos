@@ -1,6 +1,5 @@
 //12
 
-package src;
 import java.util.Scanner;
 
 public class Tirolesa {

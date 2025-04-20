@@ -1,6 +1,5 @@
 //20
 
-package src;
 import java.util.Scanner;
 
 public class BisextoCompleto {

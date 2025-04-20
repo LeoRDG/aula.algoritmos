@@ -1,6 +1,5 @@
 //28
 
-package src;
 import java.util.Scanner;
 
 public class Numero {

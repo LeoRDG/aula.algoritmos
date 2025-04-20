@@ -1,6 +1,5 @@
 //26
 
-package src;
 import java.util.Scanner;
 
 public class Ordem {

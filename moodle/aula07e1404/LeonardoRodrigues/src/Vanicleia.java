@@ -1,6 +1,5 @@
 //15
 
-package src;
 import java.util.Scanner;
 
 public class Vanicleia {

@@ -1,7 +1,5 @@
 //27
 
-package src;
-
 import java.util.Scanner;
 
 public class Triangulo {

@@ -1,6 +1,5 @@
 //14
 
-package src;
 import java.util.Scanner;
 
 public class AlturaPredio {

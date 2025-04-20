@@ -1,6 +1,5 @@
 //23
 
-package src;
 import java.util.Scanner;
 
 public class Equacao2Grau {

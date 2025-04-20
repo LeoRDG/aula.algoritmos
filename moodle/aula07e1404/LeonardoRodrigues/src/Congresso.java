@@ -1,6 +1,5 @@
 //17
 
-package src;
 import java.util.Scanner;
 
 public class Congresso {

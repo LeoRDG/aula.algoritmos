@@ -1,6 +1,5 @@
 //16
 
-package src;
 import java.util.Scanner;
 
 public class Godofredo {
