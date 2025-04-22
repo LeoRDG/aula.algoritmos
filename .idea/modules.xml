@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/aula.algoritmos.iml" filepath="$PROJECT_DIR$/.idea/aula.algoritmos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moodle/aula07e1404/aula07e1404.iml" filepath="$PROJECT_DIR$/moodle/aula07e1404/aula07e1404.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moodle/aula24e3103/aula24e3103.iml" filepath="$PROJECT_DIR$/moodle/aula24e3103/aula24e3103.iml" />
+    </modules>
+  </component>
+</project>
