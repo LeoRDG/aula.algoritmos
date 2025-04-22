@@ -1,8 +1,6 @@
-//21
-
 import java.util.Scanner;
 
-public class Tempo {
+public class E21 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 

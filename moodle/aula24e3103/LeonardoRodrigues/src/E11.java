@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Neusimara {
+public class E11 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 

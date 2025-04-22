@@ -1,8 +1,6 @@
-//13
-
 import java.util.Scanner;
 
-public class LarguraRio {
+public class E13 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 

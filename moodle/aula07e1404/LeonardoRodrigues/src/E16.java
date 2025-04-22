@@ -1,8 +1,6 @@
-//16
-
 import java.util.Scanner;
 
-public class Godofredo {
+public class E16 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 

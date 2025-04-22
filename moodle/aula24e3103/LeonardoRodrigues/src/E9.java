@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Aeronave {
+public class E9 {
     public static void main(String[] args) {
         System.out.println("_____________________________________________________________________________");
         Scanner leitor = new Scanner(System.in);

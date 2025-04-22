@@ -1,8 +1,6 @@
-//12
-
 import java.util.Scanner;
 
-public class Tirolesa {
+public class E12 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 

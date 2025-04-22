@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class VelocidadeMorista {
+public class E4 {
     public static void main(String[] args) {
         System.out.println();
         Scanner leitor = new Scanner(System.in);

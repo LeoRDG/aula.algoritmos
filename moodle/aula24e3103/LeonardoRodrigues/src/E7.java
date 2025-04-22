@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MotoristaOnibus {
+public class E7 {
     public static void main(String[] args) {
         System.out.println("_____________________________________________________________________________");
         Scanner leitor = new Scanner(System.in);

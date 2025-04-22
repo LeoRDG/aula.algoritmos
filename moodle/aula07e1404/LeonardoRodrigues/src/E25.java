@@ -1,8 +1,6 @@
-//25
-
 import java.util.Scanner;
 
-public class Quadrante {
+public class E25 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 

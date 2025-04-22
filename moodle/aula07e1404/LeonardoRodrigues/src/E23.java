@@ -1,8 +1,6 @@
-//23
-
 import java.util.Scanner;
 
-public class Equacao2Grau {
+public class E23 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 

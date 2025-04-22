@@ -1,8 +1,6 @@
-//28
-
 import java.util.Scanner;
 
-public class Numero {
+public class E28 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 

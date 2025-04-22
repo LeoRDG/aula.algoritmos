@@ -1,8 +1,6 @@
-//22
-
 import java.util.Scanner;
 
-public class ABCD {
+public class E22 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 

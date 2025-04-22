@@ -1,8 +1,6 @@
-//14
-
 import java.util.Scanner;
 
-public class AlturaPredio {
+public class E14 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 

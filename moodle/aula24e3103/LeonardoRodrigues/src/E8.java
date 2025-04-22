@@ -1,7 +1,6 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class Metro {
+public class E8 {
     public static void main(String[] args) {
         System.out.println("_____________________________________________________________________________");
         Scanner leitor = new Scanner(System.in);

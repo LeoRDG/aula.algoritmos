@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Josevaldo {
+public class E10 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 

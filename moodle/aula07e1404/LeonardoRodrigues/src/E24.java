@@ -1,8 +1,6 @@
-//24
-
 import java.util.Scanner;
 
-public class Intervalo {
+public class E24 {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
 
