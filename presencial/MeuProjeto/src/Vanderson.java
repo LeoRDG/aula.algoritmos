@@ -35,7 +35,7 @@ public class Vanderson {
         }
 
         else if (codigo == 3) {
-            resultado += "éter etílico";
+            resultado += "éter etílico ";
             if (temp >= 35) {
                 resultado += "em estado gasoso";
             } else if (temp >= -116) {
@@ -43,6 +43,9 @@ public class Vanderson {
             } else {
                 resultado += "em estado sólido";
             }
+        }
+        else {
+            resultado = "codigo inválido";
         }
         System.out.println(resultado);
     }
