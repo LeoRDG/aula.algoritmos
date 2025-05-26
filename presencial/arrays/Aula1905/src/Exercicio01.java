@@ -9,7 +9,7 @@ public class Exercicio01 {
         double[] numeros = new double[100];
 
         for (int i =0; i<numeros.length; i++){
-            numeros[i] = Math.random()*100;
+            numeros[i] = leitor.nextDouble();//Math.random()*100;
         }
 
         for (double num : numeros) {

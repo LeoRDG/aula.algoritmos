@@ -17,18 +17,26 @@ public class Exercicio03 {
         int numVerificar = leitor.nextInt();
 
         boolean presente = false;
-        for (int num : numeros) {
-            if (num == numVerificar) {
+        int i;
+        for (i = 0; i < numeros.length; i++) {
+            if (numeros[i] == numVerificar) {
                 presente = true;
+                break;
             }
         }
 
+        if (i < numeros.length) {
+            System.out.println("Número " + numeros[i] + " presente no indice " + i);
+        }
+        else {
+            System.out.println("Número não presente");
+        }
+
         if (presente) {
-            System.out.println("Número presente");
+            System.out.println("Número " + numeros[i] + " presente no indice " + i);
         } else {
             System.out.println("Número não presente");
         }
 
     }
 }
-
