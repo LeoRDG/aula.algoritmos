@@ -14,7 +14,7 @@ public class Exercicio05 {
             numeros[i] = leitor.nextInt();
         }
 
-        int i, j;
+        int i, j=0;
         for(i = 0; i < numeros.length-1; i++) {
             for(j = i+1; j < numeros.length; j ++) {
                 if (numeros[i] == numeros[j]){
@@ -27,7 +27,7 @@ public class Exercicio05 {
         }
 
         if (i < numeros.length - 1) {
-            System.out.println("Há duplicatas");
+            System.out.println("Há duplicatas nos indices " + i + " e " + j);
         }else{
             System.out.println("Não há duplicatas");
         }
