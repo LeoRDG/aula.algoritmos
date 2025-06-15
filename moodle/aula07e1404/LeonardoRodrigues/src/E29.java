@@ -31,6 +31,8 @@ public class E29 {
             case 0b1001:
                 resultado += "águia";
                 break;
+            default:
+                resultado += "223";
         }
 
         System.out.println(resultado);

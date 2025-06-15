@@ -22,7 +22,7 @@ public class E30 {
                             ( pesoLab + pesoSem + pesoFin );
 
         String resultado = "A média ponderada é " + notaTotal + ". Conceito final: ";
-
+        
         if ( notaTotal >= 9) {
             resultado += "A";
         } else if ( notaTotal >= 7.5 ) {

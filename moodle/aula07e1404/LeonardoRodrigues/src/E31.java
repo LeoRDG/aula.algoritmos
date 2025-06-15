@@ -12,6 +12,11 @@ public class E31 {
 
         salario += salario <= 600 ? 150 : 100;
 
+        switch (salario) {
+            case 100:
+                
+        }
+
         System.out.println("O novo salário será: " + salario + " R$");
     }
 }
